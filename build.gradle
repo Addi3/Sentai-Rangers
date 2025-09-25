@@ -50,6 +50,8 @@ dependencies {
     // amblekit
     modImplementation "com.github.amblelabs:modkit:${project.use_amblekit_dev ? project.amblekit_dev_version : project.amblekit_version}"
 
+    //other
+    include(implementation "net.objecthunter:exp4j:0.4.8")
 
     // Fabric API. This is technically optional, but you probably want it anyway.
 	modImplementation "net.fabricmc.fabric-api:fabric-api:${project.fabric_version}"

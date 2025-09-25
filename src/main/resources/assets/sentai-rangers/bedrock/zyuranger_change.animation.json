@@ -3,6 +3,7 @@
 	"animations": {
 		"zyuranger_change": {
 			"animation_length": 7.7083,
+			"override_previous_animation": true,
 			"bones": {
 				"left_arm": {
 					"rotation": {
