@@ -1,6 +1,8 @@
 package com.addie;
 
+import com.addie.core.SentaiRangersItems;
 import com.addie.core.SentaiRangersSounds;
+import dev.amble.lib.container.RegistryContainer;
 import net.fabricmc.api.ModInitializer;
 
 import net.minecraft.util.Identifier;
@@ -20,6 +22,7 @@ public class SentaiRangers implements ModInitializer {
 	@Override
 	public void onInitialize() {
         SentaiRangersSounds.init();
+        RegistryContainer.register(SentaiRangersItems.class, MOD_ID);
 
 	}
 }
