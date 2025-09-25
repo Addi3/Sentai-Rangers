@@ -22,7 +22,7 @@
 			"com.addie.SentaiRangersClient"
 		],
 		"fabric-datagen": [
-			"com.addie.SentaiRangersDataGenerator"
+          "com.addie.datagen.SentaiRangersDataGenerator"
 		]
 	},
 	"mixins": [
